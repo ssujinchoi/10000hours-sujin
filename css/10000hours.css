@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+body {
+  background-color: #5b2386;
+  font-family: "GmarketSansMedium";
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.wapper {
+  margin: 0 auto;
+}
+
+.wrapper strong, .wrapper button {
+  font-family: "GmarketSansBold";
+  border: 0;
+}
+
+
+.title-timelaw {
+  position: relative;
+  margin-top: 194px;
+  margin-bottom: 118px;
+}
+
+#title-img {
+  width: 564px;
+  height: 112px;
+}
+
+#title-bgimg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 261px;
+  height: 265px;
+}
+
+.wise-saying-img {
+  width: 486px;
+  height: 40px;
+  margin-bottom: 77px;
+  object-fit: contain;
+}
+
+.desc-img-article {
+  position: relative;
+  margin-bottom: 102px;
+}
+.title-desc {
+  width: 373px;
+  height: 85px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.quotes-img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-desc-strong {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.cont-form {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.txt-wannabe {
+  margin-bottom: 27px;
+}
+.wannabe-inp {
+  width: 228px;
+  height: 57px;
+  margin: 0 17px;
+  padding: 17px 41px 16px 39px;
+  border-radius: 7px;
+  border: 0;
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  text-align: center;
+  /*color: #babcbe;*/
+  box-sizing: border-box;
+}
+
+.result-check {
+  position: relative;
+  margin-top: 115px;
+  margin-bottom: 149px;
+}
+
+.result-check .result-btn {
+  width: 565px;
+  height: 66px;
+  font-size: 24px;
+  color: #5B2386;
+  background: #FCEE21;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+}
+
+.result-check .click-img {
+  position: absolute;
+  margin-left: 7px;
+  margin-top: 13px
+  
+}
+
+.cont-result {
+  margin-bottom: 130px;
+  font-size: 24px;;
+}
+
+.cont-result strong {
+  font-size: 72px;
+}
+
+.result-txt-wannabe {
+  margin-bottom: 17px;
+}
+
+.result-txt-time {
+  margin-bottom: 127px;
+}
+
+.result-txt-wannabe strong, .result-txt-time strong {
+  vertical-align: -15px;;
+}
+.go-btn {
+  width: 356px;
+  height: 66px;
+  margin-right: 18px;
+  padding: 21px 49px;
+  font-size: 24px;
+  color: #5B2386;
+  background: #FCEE21;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+
+}
+
+.share-btn {
+  width: 191px;
+  height: 66px;
+  font-size: 24px;
+  color: #5B2386;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 56px;
+}
+
+.txt-footer {
+  margin-top: 20px;
+  margin-bottom: 116px;
+  font-family: "";
+  font-size: 12px;
+  font-weight: 300px;
+  line-height: 17px;
+
+}
